@@ -75,9 +75,6 @@ fullName
 	^self name
 !
 
-fullyQualifiedReference
-	^self fullName asQualifiedReference!
-
 initialize
 	super initialize.
 	bindingEnvironment := self!
@@ -172,7 +169,6 @@ preResize: newMe
 !PoolDictionary categoriesFor: #environment!accessing!public! !
 !PoolDictionary categoriesFor: #fileOutName!development!public!source filing! !
 !PoolDictionary categoriesFor: #fullName!accessing!public! !
-!PoolDictionary categoriesFor: #fullyQualifiedReference!accessing!public! !
 !PoolDictionary categoriesFor: #initialize!initializing!private! !
 !PoolDictionary categoriesFor: #initializerFor:!development!public!source filing-sif! !
 !PoolDictionary categoriesFor: #isChanged!development!public!source filing!testing! !
